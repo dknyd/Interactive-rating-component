@@ -1,0 +1,136 @@
+body,html{
+	width: 100vw;
+	height: 100vh;
+}
+body{
+    display: grid;
+    place-content: center;  
+	background-color: black;
+}
+
+.container{
+	background-color: hsl(216, 12%, 8%);
+	max-width: 25rem;
+	height: 25rem;
+	border-radius: 2rem;
+	padding: 3rem;
+}
+
+#mainText{
+	visibility: visible;
+	z-index: 2;
+	position: relative;
+}
+
+#altText{
+	visibility: hidden;
+	z-index: 1;
+	position: relative;
+	bottom: 300px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.starContainer{
+	width: 50px;
+	height: 50px;
+	padding: 6px 0px;
+	border-radius: 25px;
+	background-color: hsl(213, 19%, 18%);
+	display: grid;
+    place-content: center;
+	margin-bottom: 1rem;
+}
+
+.howDidWeDo{
+	color: white;
+}
+
+.letUsKnow{
+	color: hsl(217, 12%, 63%);
+}
+
+
+.button-container{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+
+ .btn-circle {
+	width: 50px;
+	height: 50px;
+	padding: 6px 0px;
+	border-radius: 25px;
+	font-size: 1.5rem;
+	text-align: center;
+	background-color: hsl(213, 19%, 18%);
+	border: 0px;
+	color: hsl(217, 12%, 63%);
+	font-family: "Overpass"
+ }
+
+.btn-circle:hover{
+	background-color: hsl(25, 97%, 53%)!important;
+	color: white;
+	border: 0px;
+}
+
+.btn-circle:focus{
+	background-color: hsl(217, 12%, 63%) !important;
+	color: white;
+	border-color: hsl(217, 12%, 63%) !important;
+	padding: 0px !important;
+	border: 0px !important;
+}
+
+.submit{
+	background-color: hsl(25, 97%, 53%);
+	border-radius: 2rem;
+	margin: auto;
+	width: 100%;
+	margin-top: 2rem;
+	text-transform: uppercase;
+	font-weight: 700;
+	border: 0px;
+}
+
+.submit:hover{
+	color: hsl(25, 97%, 53%);
+	background-color: white;
+	text-transform: uppercase;
+	font-weight: 700;
+	border: 0px;
+}
+
+.submit:active{
+	color: hsl(25, 97%, 53%) !important;
+	background-color: white !important;
+}
+
+submit:focus{
+	color: hsl(25, 97%, 53%) !important;
+	background-color: white !important;
+} 
+
+
+/* ALT WINDOW */
+.youSelected{
+	color: hsl(25, 97%, 53%);
+	background-color: hsl(213, 19%, 18%);
+	border-radius: 16px;
+	margin-top: 1rem;
+	padding: 0.2rem 0.6rem 0.2rem 0.6rem;
+}
+
+.thankYou{
+	color: white;
+}
+
+.weAppreciate{
+	color: hsl(217, 12%, 63%);
+	text-align: center;
+}
